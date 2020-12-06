@@ -3,10 +3,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.datanucleus</groupId>
-    <artifactId>datanucleus-samples-jpa-many_many_attributed</artifactId>
+    <artifactId>datanucleus-samples-jpa-multitenant</artifactId>
     <packaging>jar</packaging>
     <version>5.0</version>
-    <name>DataNucleus AccessPlatform JPA Many-to-Many Attributed Relation Sample</name>
+    <name>DataNucleus AccessPlatform JPA Multitenant</name>
     <url>http://www.datanucleus.org</url>
 
     <properties>
@@ -105,8 +105,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.1</version>
                 <configuration>
-                    <mainClass>org.datanucleus.samples.jpa.many_many_attributed2.Main</mainClass>
-                    <!-- mainClass>org.datanucleus.samples.jpa.many_many_attributed.Main</mainClass-->
+                    <mainClass>org.datanucleus.samples.jpa.multitenant</mainClass>
                     <systemProperties>
                         <systemProperty>
                             <key>log4j.configuration</key>
