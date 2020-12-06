@@ -1,3 +1,14 @@
 *.log
-lib
-target
+
+lib/
+target/
+
+.idea/
+
+effective-pom.xml
+
+effective.pom
+
+*.iml
+*.ipr
+*.iws
